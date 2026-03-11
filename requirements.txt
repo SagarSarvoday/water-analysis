@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+shap
+joblib
+fpdf2
+anthropic
+plotly
