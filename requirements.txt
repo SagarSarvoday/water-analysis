@@ -3,7 +3,7 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-streamlit==1.19.0
+streamlit==1.37.0
 joblib
 plotly
 imbalanced-learn
