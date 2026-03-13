@@ -38,8 +38,11 @@ from utils.risk_scorer      import analyze_parameters, calculate_risk_score
 from utils.report_generator import generate_report, generate_assistant_response
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(BASE_DIR, "model")
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "..", "model")
+MODEL_DIR = os.path.abspath(MODEL_DIR)
 MODEL_PATH  = os.path.join(MODEL_DIR, "water_model.pkl")
 SCALER_PATH = os.path.join(MODEL_DIR, "scaler.pkl")
 PLOT_DIR    = os.path.join(MODEL_DIR, "plots")
