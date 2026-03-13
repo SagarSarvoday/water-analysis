@@ -1,8 +1,18 @@
+# pandas
+# numpy
+# scikit-learn
+# matplotlib
+# seaborn
+# streamlit==1.37.0
+# joblib
+# plotly
+# imbalanced-learn
+# groq
+# altair==4.2.2
+
 pandas
 numpy
 scikit-learn
-matplotlib
-seaborn
 streamlit==1.37.0
 joblib
 plotly
