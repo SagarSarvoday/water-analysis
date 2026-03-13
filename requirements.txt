@@ -3,8 +3,9 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-streamlit
+streamlit==1.19.0
 joblib
 plotly
 imbalanced-learn
 groq
+altair==4.2.2
